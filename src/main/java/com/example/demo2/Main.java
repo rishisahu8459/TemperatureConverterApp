@@ -54,6 +54,7 @@ launch(args);
 
         fileMenu.getItems().addAll(newMenuitem,aboutMenuitem,separator,saveMenuitem,closeMenuitem);
         newMenuitem.setOnAction(event -> {
+            System.out.println("new");
 
 
         });
